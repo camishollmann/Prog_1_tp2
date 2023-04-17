@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "libAgenda.h"
 
-int main (){
-int ano;
+int main () {
+    int ano;
     char saida = 'c';
     
     printf("Entre com o ano: ");
