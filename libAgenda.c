@@ -112,7 +112,7 @@ int verificaDisponibilidade(struct agenda *ag, struct compromisso *compr){
 	return 1;
 }
 
-/* Esta funcao considera que o comprimisso eh valido e a agenda esta livre
+/* Esta funcao considera que o compromisso eh valido e a agenda esta livre
  * para da data/hora fornecidos, portanto quem chama esta funcao tem que
  * garantir estas informacoes. Portanto, a funcao simplesmente muda o valor
  * da hora do compromisso de livre para ocupado */
